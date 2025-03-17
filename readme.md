@@ -77,8 +77,8 @@ Vercel link - https://random-quote-generator-nine-sandy.vercel.app/
 
 
 ## Screenshots
-📌 1. Initial Design on Page Load: -
-![App Screenshot]('./assets/intial.PNG')
+📌 1. Initial Design on Page Load: 
+![App Screenshot](./assets/first.PNG)
 
 📌 2. Design After Generating a Quote:
 ![App Screenshot](./assets/quotegenerated.PNG)
