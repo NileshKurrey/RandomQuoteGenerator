@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Random Quotes</title>
+</head>
+<body>
+<!--Header Component-->
+    <div class="header">
+        <h1 class="Title">
+            <i class="fas fa-quote-left"></i>
+            <span>Random Quotes Generator</span>
+            <i class="fas fa-quote-right"></i>
+        </h1>
+    </div>
+    <!-- Qoutes Component currently it displaying Intial component -->
+    <div class="quotes" id="quotescontainer">
+        <div class="intialContent" id="intialContent">
+            <h2 class="intialText">Click On Generate Random Quote Button to generate qoute</h2>
+        </div>
+    
+    </div>
+    <!-- Button Controllers -->
+    <div class="buttons" id="ControlBtn">
+        <div class="mainBtn">
+            <button class="generate" id="quoteBtn">Generate Random Quote</button>
+        </div>
+        <div class="utilBtn">
+            <button class="copy" id="copy">Copy to Clip Board</button>
+            <button class="download" id="download">Download Quote</button>
+            <a id="twitter-share" class="share-btn" target="_blank">
+                <i class="fab fa-twitter"></i> Share on Twitter
+            </a>
+        </div>
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+        <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
