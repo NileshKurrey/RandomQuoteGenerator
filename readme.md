@@ -58,8 +58,10 @@ The **Random Quote Generator** is a simple yet powerful website that generates a
 
 ```http
 GET https://api.freeapi.app/api/v1/public/quotes/quote/random
+```
+```http
 GET https://api.unsplash.com/photos/random/?query="query"&client_id=access_token
-
+```
 | 🔑 Parameter | 🏷️ Type    | 📖 Description                    |
 | :-------- | :------- | :-------------------------------- |
 | `access_token`      | `string` | **Required**. Your **Unsplash API** access token 🔑 |
