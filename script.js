@@ -48,7 +48,6 @@ quoteBtn.addEventListener("click", async () => {
         currentTag = data.data.tags[0]
         showQuotes(data, img);
         hideLoader();
-        loaderFlag = false;
 
     } catch (error) {
         console.error(error);
